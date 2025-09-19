@@ -43,20 +43,19 @@ Os principais objetivos deste laboratório são:
 *   Confirmei a instalação do NS2 e criei o arquivo `qos_base.tcl`.
 
 **Entrega:** Captura de tela do `qos_base.tcl` no editor de texto.
-```
+
 # ![Captura de tela do qos_base.tcl](base.png)
-```
 
 ### **4.2. Configuração Inicial do Wireshark**
 
 *   Abri o Wireshark e selecionei a interface de rede correta para captura.
 
 **Entrega:** Captura de tela do Wireshark com a interface de captura selecionada.
-```
+
 # ![Captura de tela interface wifi selecionada 1 - Wireshark](interface_wifi.png)
 
 # ![Captura de tela interface wifi selecionada 2 - Wireshark](interface_wireshark.png)
-```
+
 ---
 
 ## 5. Parte II: Latência (Delay) – O Tempo é Essencial
@@ -172,17 +171,17 @@ Abaixo, trecho com Latência de 500 ms entre um envio e seu respectivo recebimen
 **Entregas:**
 
 1.  Captura de tela do Wireshark mostrando a captura inicial de pacotes.
-```
+   
 #![Captura inicial pacotes](pacotes.png)
-```
+
 2.  Captura de tela do Wireshark mostrando o filtro `rtcp` aplicado.
-```
+
 #![Captura filtro rtcp](rtcp.png)
-```
+
 3.  Captura de tela dos detalhes de um pacote **Receiver Report (RR)**, com os campos `Fraction Lost`, `Cumulative Number of Packets Lost` e `Interarrival Jitter` claramente visíveis.
-```
+
 #![Captura tela detalhes pacote](jitter.png)
-```
+
 
 **Valores Observados:**
 
