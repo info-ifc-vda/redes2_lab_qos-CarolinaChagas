@@ -304,7 +304,7 @@ $ns run
 | 7       | 2.810198      | 2.82025             | 10.052      | Latência estável e baixa                                                                      |
 | 8       | 3.110666      | 3.120717            | 10.051      | Indica que o RTT está em aproximadamente ~10ms                                                |
 | 9       | 3.410051      | 3.420102            | 10.051      | Apresenta latência baixa                                                                      |
-| 10      | 3.710051      | 3.720102            | 10.051      | Também indica uma latência baixa, que se enquadra para feedback tátil em aplicações críticas. |
+| 10      | 3.710051      | 3.720102            | 10.051      | Também indica uma latência baixa, sem alterações significativas                               |
 
 ### **7.3. Perguntas para Refletir e Discutir**
 
