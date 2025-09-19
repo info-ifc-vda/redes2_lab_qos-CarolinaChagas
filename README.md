@@ -416,7 +416,7 @@ $ns run
 
 2.  **Como a taxa de perda configurada no script (`rate_`) se compara à taxa de perda observada para o UDP?**
 
-    * Se compara no sentido de que houve uma maior perda de pacotes observada em relação a taxa configurada no script.
+    * Se compara no sentido de que houve uma maior perda de pacotes observada em relação a taxa configurada no script. Por exemplo, a taxa de erro de 1e-5 teve uma maior perda de pacotes (401) do que a taxa de erro de 1e-2 (384), e isso normalmente não deveria acontecer, já que a taxa de 1e-2 (0,01) é muito maior do que a de 1e-5 (0,00001).
 
 3.  **Dê exemplos de aplicações que toleram alta perda de pacotes e aplicações que não toleram nenhuma perda.**
     *  Aplicações que toleram alta perda de pacotes são as de streaming de vídeo e aplicações VoIP. Já as aplicações que não toleram perdas são as relacionadas a transferências bancárias e protocolos de controle.
